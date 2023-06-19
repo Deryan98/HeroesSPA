@@ -1,40 +1,40 @@
 # HeroesSPA
-Proyecto de práctica para mostrar el catálogo de héroes de DC y Marvel con el fin de presentar un SPA con rutas públicas y privadas, además de animaciones
+Practice project to show the catalog of DC and Marvel heroes in order to present a SPA with public and private routes, as well as animations
 
-## ¿Quieres probarlo?
+## Do you want to try it?
 ***
-En una terminal ubicate en la carpeta donde clonarás el repositorio.
+In a terminal, navigate to the folder where you will clone the repository.
 ```
 $ git clone https://github.com/Deryan98/HeroesSPA.git
 $ cd HeroesSPA
 $ yarn
 $ yarn dev
 ```
-Ahora verás la url local en la terminal para ver el spa corriendo
+Now you will see the local url in the terminal to see the spa running
 ```
 http://localhost:5173/
 ```
 
-## Alcance
+## Scope
 *** 
-El alcance de este proyecto está pensado con el fin de nada más mostrar las habilidades de frontend utilizando adquiridas hasta el momento
-De momento no se cuenta con un backend sociado. Pero algunas características implementadas son:
+The scope of this project is intended to show the frontend skills acquired so far.
+At the moment there is no associated backend. But some implemented features are:
 
-1. ** Implementación de react router dom con el manejo de rutas públicas y privadas emulando un login y logout.
-2. ** Manejo del estado de sesión con un ContextProvider para tener acceso global a la información.
-3. ** Persistance de la sesión del usuario leyendo y escribiendo de local storage.
-4. ** Maquetación de UI con clases de bootstrap.
-5. ** Manejo de query params en rutas para el buscador.
-6. ** Efectos y animaciones para resaltar contenido.
+1. ** Implementation of react router dom with the management of public and private routes emulating a login and logout.
+2. ** Handling session state with a ContextProvider to have global access to information.
+3. ** Persistence of the user session reading and writing from local storage.
+4. ** UI layout with bootstrap classes.
+5. ** Management of query params in routes for the search engine.
+6. ** Effects and animations to highlight content.
 
-## Tecnologías
+## Technologies
 ***
-Listado de tecnologías utilizadas en el proyecto
+List of technologies used in the project
 * [Bootstrap](https://getbootstrap.com/): Version 5.3.0
 * [Animate.css](https://animate.style/): Version 4.1.1
 * [React router dom](https://reactrouter.com/en/main): Version 6.12.0
 
-## Librerías
+## Libraries
 *** 
-Listado de librerías para resolver trivialidades
+List of libraries to solve trivialities
 * [query string](https://www.npmjs.com/package/query-string) Version 8.1.0
